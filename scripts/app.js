@@ -1,12 +1,3 @@
-(function(){
-	var app = angular.module('myApp', [ ]);
+'use strict';
 
-
-	app.directive('loginForm' , function(){
-	return {
-		restrict:  'E' ,
-		templateUrl: 'views/login/login-form.php'
-	};
-});
-
-})();
+var app = angular.module('myApp', [ ]);

@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <login-form></login-form>
+  <div class="wrap" login-form>Call directive login form</div>
     
 </body>
 
